@@ -1,10 +1,9 @@
 
 # Technical Assessment Project
 
-This project contains solutions for two assignments focused on evaluating binary classification models and implementing a Finite State Machine (FSM) using Object-Oriented Design principles.
-
-- **Assignment 1**: Find the best threshold for a binary classification model based on precision and recall.
-- **Assignment 2**: Compute the remainder when a binary number is divided by three using after implementing a generic FSM.
+This project contains solutions for two assignments
+- **Assignment 1**: Find the best threshold for a binary classification model where recall >= 0.9.
+- **Assignment 2**: Implement a generic Finite State Machine (FSM) using Object-Oriented Design principles and use it to compute the remainder when an unsigned binary number is divided by three. 
 
 ---
 
@@ -58,7 +57,7 @@ This project contains solutions for two assignments focused on evaluating binary
 ### Problem Description
 
 
-**Objective**: Gievn counts of true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN) at different confidence score thresholds (0.1, 0.2, ..., 0.9). Write a function to return the **best threshold** that yields a recall of at least **0.9**. The "best" threshold is defined as the one with the highest precision. If multiple thresholds have the same precision, select the one with the highest threshold value.
+**Objective**: Gievn counts of true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN) at different confidence score thresholds (0.1, 0.2, ..., 0.9). Write a function to return the **best threshold** that yields a recall of at least **0.9**. The "best" threshold is then defined as the one with the highest precision. If multiple thresholds have the same precision, then the one with the highest threshold value is selected.
 
 ### Solution Overview
 
@@ -127,7 +126,8 @@ Design and implement a generic class for a Finite State Machine (FSM). Then use 
 - **Input Alphabet**: '0', '1'.
 - **Initial State**: S0.
 - **Transition Function**: Defined based on the current state and input symbol.
-
+- **Final States**: A set of accepting/final states (F).
+  
 **Implementation**:
 
 - A generic `FiniteAutomaton` class is implemented for any FSM.
