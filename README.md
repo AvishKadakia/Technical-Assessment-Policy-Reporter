@@ -1,7 +1,7 @@
 
 # Technical Assessment Project
 
-This project contains solutions for two assignments
+This repo contains solutions for two assignments
 - **Assignment 1**: Find the best threshold for a binary classification model where recall >= 0.9.
 - **Assignment 2**: Implement a generic Finite State Machine (FSM) using Object-Oriented Design principles and use it to compute the remainder when an unsigned binary number is divided by three. 
 
