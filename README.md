@@ -57,9 +57,8 @@ This project contains solutions for two assignments focused on evaluating binary
 
 ### Problem Description
 
-Gievn counts of true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN) at different confidence score thresholds (0.1, 0.2, ..., 0.9).
 
-**Objective**: Write a function to return the **best threshold** that yields a recall of at least **0.9**. The "best" threshold is defined as the one with the highest precision. If multiple thresholds have the same precision, select the one with the highest threshold value.
+**Objective**: Gievn counts of true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN) at different confidence score thresholds (0.1, 0.2, ..., 0.9). Write a function to return the **best threshold** that yields a recall of at least **0.9**. The "best" threshold is defined as the one with the highest precision. If multiple thresholds have the same precision, select the one with the highest threshold value.
 
 ### Solution Overview
 
