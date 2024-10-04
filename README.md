@@ -10,7 +10,6 @@ This repo contains solutions for two assignments
 ## Table of Contents
 
 - [Technical Assessment Project](#technical-assessment-project)
-  - [Table of Contents](#table-of-contents)
   - [General Requirements](#general-requirements)
   - [Project Structure](#project-structure)
   - [Assignment 1](#assignment-1)
@@ -26,9 +25,7 @@ This repo contains solutions for two assignments
     - [How to Run](#how-to-run-1)
     - [Running Tests](#running-tests-1)
   - [Dependencies](#dependencies)
-  - [Contributing](#contributing)
   - [License](#license)
-  - [Contact](#contact)
 
 ---
 
