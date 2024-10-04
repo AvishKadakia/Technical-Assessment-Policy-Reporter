@@ -1,5 +1,5 @@
 
-# Technical Assessment Project
+# Technical Assessment
 
 This repo contains solutions for two assignments
 - **Assignment 1**: Find the best threshold for a binary classification model where recall >= 0.9.
@@ -9,7 +9,7 @@ This repo contains solutions for two assignments
 
 ## Table of Contents
 
-- [Technical Assessment Project](#technical-assessment-project)
+- [Technical Assessment](#technical-assessment)
   - [General Requirements](#general-requirements)
   - [Project Structure](#project-structure)
   - [Assignment 1](#assignment-1)
